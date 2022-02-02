@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#grid-container {
+    display: grid;
+}
+
+.grid-items {
+    padding: 20px;
+}
+
+
