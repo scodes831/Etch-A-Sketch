@@ -12,7 +12,6 @@ function makeNewGrid() {
     for (i=1; i <= userGrid; i++) {
         const div = document.createElement('div');
         const gridItems = div.classList.add('grid-items');
-        // div.textContent = i;
         container.append(div);
     }
     container.style.gridTemplateColumns = `repeat(${userSelection}, 1fr)`;
